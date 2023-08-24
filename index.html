@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>  
+        body{
+            background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(120, 255, 255)80%);
+        }
+
+
+        h1{ 
+            text-align: center;
+            margin: 60px 0 40px 0;
+            font-size: 1.5em;
+            color: #000000;
+            font-family: sans-serif;
+            text-transform: uppercase;
+        }
+        .lista{
+            background: rgb(0, 47, 255);
+            border: 2px solid black;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-shadow: 0 2px 6px rgb(128, 128, 255);
+        }
+
+        .titulo{ 
+            cursor: pointer;
+            padding: 10px;
+            font-size: 1.4em;
+            font-family: monospace;
+            color: #ffffff;
+        }
+
+        .titulo::after {
+            content: '...';
+            float: right;
+            transition: transform .90s ease;
+        }
+        .conteudo{
+            padding: 10px;
+            color: #ffffff;
+            font-family:Helvetica;
+            font-size: .875em;
+            line-height: 1.4em;
+            display: none;
+            background-color: rgb(49, 2, 110);
+        }
+        .a2{
+            display: none;
+        }
+
+        .a2:checked + .a1 .conteudo{ 
+            display: inline-block;
+
+        }
+        .a2:checked + .a1 .titulo::after{
+            transform: rotate(180deg) scale(1.10);
+            content: 'X';
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .area8{
+            margin-top: 100px;
+            display: flex;
+            background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(120, 255, 255));
+            align-items: center;
+            justify-content: space-around;
+            height: 500px;
+            width: 100%;
+        }
+        img{
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px 5px black;
+            box-shadow: 5px 5px 5px 5px;
+        }
+        footer{
+            background-color: #000000;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>FTP SKINS</h1>
+
+    <div class="lista">
+        <input class="a2" id="titulo-1" type="checkbox">
+        <div class="a1">
+            <label for="titulo-1">
+                <h2 class="titulo">PESQUISA 🔎</h2>
+            </label>
+            <a class="conteudo" href="#">compras 🛒</a>
+            <a class="conteudo" href="#">vendas 💰</a>
+            <a class="conteudo" href="#">trocas 🔄</a>
+            <a class="conteudo" href="#">skins 👤</a>
+            
+        </div>
+    </div>
+    <CENTER><H3>SKINS AZUL VALORANT</H3>
+    <main>
+        <div class="area8">
+            <div class="caixas1"><img src="https://th.bing.com/th/id/OIP.z0g6NGhfqO206HsXM6IxfgHaEK?pid=ImgDet&rs=1" alt="" width="400"></div>
+            <div class="caixas1"><img src="https://digistatement.com/wp-content/uploads/2020/05/gamerjournalist.com558Valorant-Luxe-Operator-Blue-Skin-750x419.png" alt="" width="400"></div>
+            <div class="caixas1"><img src="https://th.bing.com/th/id/OIP.f-cxm47wQv1Qr4j95uOmQQHaDg?pid=ImgDet&rs=1" alt="" width="400"></div>
+    </main></CENTER>
+    <FOOter>9</FOOter>
+    <CENTER><H3>SKINS AZUL FORNITE</H3>
+    <main>
+        <div class="area8">
+            <div class="caixas1"><img src="https://th.bing.com/th/id/OIP.yvX0PUy3bH8S7JHQfN4IMQHaHv?pid=ImgDet&rs=1" alt="" width="400"></div>
+            <div class="caixas1"><img src="https://i1.wp.com/nya-ne.net/wp-content/uploads/2020/01/%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B866032.jpg?fit=543%2C565&ssl=1" alt="" width="400"></div>
+            <div class="caixas1"><img src="https://th.bing.com/th/id/OIP.W-UyvGExpX8EPomXb47nJQHaHa?pid=ImgDet&w=900&h=900&rs=1" alt="" width="400"></div>
+            </div>
+            <FOOter>9</FOOter>
+            <CENTER><H3>SKINS AZUL APEX</H3>
+                <main>
+                    <div class="area8">
+                        <div class="caixas1"><img src="https://th.bing.com/th/id/R.fbecd1a4e3e9b14ee9ce4a8b804299e3?rik=%2fL61aUWXjE%2bm8Q&pid=ImgRaw&r=0" alt="" width="400"></div>
+                        <div class="caixas1"><img src="https://th.bing.com/th/id/OIP.i8j1RdlLJBz8pilzJgdTJAHaEK?pid=ImgDet&rs=1" alt="" width="500"></div>
+                        <div class="caixas1"><img src="https://th.bing.com/th/id/OIP.rjMGbA51X50WTL-S4FzGggAAAA?pid=ImgDet&rs=1" alt="" width="400"></div>
+                        </div>
+                        <FOOter>9</FOOter>
+
+    
+</body>
+</html>
